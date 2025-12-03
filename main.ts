@@ -3,6 +3,6 @@ basic.forever(function () {
     if (temperature > 22) {
         basic.showString("Heat")
     } else {
-    	
+        basic.showString("Cold")
     }
 })
