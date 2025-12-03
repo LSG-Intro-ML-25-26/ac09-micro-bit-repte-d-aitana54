@@ -10,6 +10,8 @@ basic.forever(function () {
     basic.showNumber(input.lightLevel())
     if (input.lightLevel() > 200) {
     	
+    } else if (input.lightLevel() < 50) {
+    	
     } else {
     	
     }
